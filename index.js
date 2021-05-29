@@ -47,7 +47,7 @@ let persons = [
 ]
 
 app.get('/info', (request, response) => {
-    response.send(`Phonebook has info for ${persons.length} people\r\n${new Date().toString()}`)
+    response.send(`Phonebook has info for ${persons.length} people\n${new Date().toString()}`)
 })
 
 app.get('/api/persons', (request, response) => {
