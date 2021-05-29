@@ -1,0 +1,19 @@
+GET http://127.0.0.1:3001/info
+
+###
+GET http://127.0.0.1:3001/api/persons
+
+###
+GET http://127.0.0.1:3001/api/persons/1
+
+###
+DELETE http://127.0.0.1:3001/api/persons/5
+
+###
+POST http://127.0.0.1:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "test",
+    "number": "1043234"
+}
